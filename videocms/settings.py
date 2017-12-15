@@ -34,7 +34,7 @@ SECRET_KEY = 'yukwpxo&i0-ij$i(+qn$g6$426p#==xc%%7x@&y5o3d8*s)1ly'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'tk-vidcms.herokuapp.com']
 
 
 # Application definition
