@@ -1,0 +1,42 @@
+h1 {
+  color: red;
+}
+
+body {
+  height: 100vh;
+}
+
+.video-player {
+  max-height: 500px;
+  width: 100%;
+}
+
+.center-vert-parent {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-bg {
+  /*background-image: url('../images/lok-bg.png');*/
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.primary-text {
+  color: #f3a830 !important;
+}
+
+.video-item {
+  opacity: 0.7;
+}
+
+.video-item:hover {
+  opacity: 1;
+}
+
+#nav_logo {
+  width: 120px;
+  height: auto;
+}

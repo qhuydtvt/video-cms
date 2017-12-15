@@ -1,0 +1,21 @@
+{% extends 'vid/base.html' %}
+
+{% block page_content %}
+<div class="container h-100">
+  <div class="h-100 d-flex flex-column justify-content-center">
+    {% if not videos %}
+      <h2>Chưa có video nào</h2>
+    {% else %}
+      <div class="row">
+        {% for video in videos %}
+          <div class="col-md-3 mb-4 video-item">
+            <a href="/video/{{ video.id }}">
+              <img class="img-fluid" src="{{ MEDIA_URL }}{{ video.image.url }}" alt="{{ video.image.title }}">
+            </a>
+          </div>
+        {% endfor %}
+      </div>
+    {% endif %}
+  </div>
+</div>
+{% endblock %}
