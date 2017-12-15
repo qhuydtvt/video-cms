@@ -10,7 +10,7 @@
         {% for video in videos %}
           <div class="col-md-3 mb-4 video-item">
             <a href="/video/{{ video.id }}">
-              <img class="img-fluid" src="{{ MEDIA_URL }}{{ video.image.url }}" alt="{{ video.image.title }}">
+              <img class="img-fluid" src="{{ MEDIA_URL }}{{ video.image.url }}" alt="{{ video.title }}">
             </a>
           </div>
         {% endfor %}
